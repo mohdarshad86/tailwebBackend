@@ -1,0 +1,30 @@
+{
+  "name": "tailweb-student-management-backend",
+  "version": "1.0.0",
+  "description": "\"Student and User Management\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src/index.js"
+  },
+  "engines": {
+    "npm": ">=8.0.0<9.0.0",
+    "node": ">=16.0.0<17.0.0"
+  },
+  "author": "\"Batsy\"",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "multer": "^1.4.5-lts.1",
+    "npm": "^9.3.1",
+    "valid-objectid": "^0.0.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
